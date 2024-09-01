@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil obcaecati fuga voluptates id molestiae eius! Sequi suscipit laudantium est alias repellat architecto labore. Iure ratione itaque exercitationem quia vel quas?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">1ª Página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">2ª Página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">3ª Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo officia officiis consectetur adipisci odit quod laborum sit repellat ducimus magnam laudantium blanditiis ab rem nisi expedita laboriosam, delectus earum itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur facilis commodi minima odio nobis optio dignissimos eos ipsa. Laudantium ipsum dolor aliquam aspernatur maxime obcaecati adipisci illo minima laboriosam reiciendis.</p>
+
+    <iframe id="tela" name="frame" srcdoc="
+        <h1>Escolha uma das opções</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore libero fugit dignissimos dolores voluptas blanditiis nihil delectus odit, iusto necessitatibus. Odio provident, dolorem ipsa repellat facere nulla amet magni odit?</p>
+        <img src='imagens/cursoemvideo-logo.png'>
+    ">
+    
+        <p>Infelizmente seu navegador não é compatível com isso!</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dicta libero nam, dolorum pariatur sit odio, dignissimos ut, assumenda dolorem ducimus. Dicta obcaecati in optio itaque. Sed, voluptate vel. Ducimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit a temporibus ipsum numquam, deleniti doloremque eaque fugiat. A velit temporibus quis. Esse ipsam saepe corporis maxime libero, fugit mollitia molestiae.</p>
+</body>
+</html>
